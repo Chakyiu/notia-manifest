@@ -5,7 +5,7 @@
     "author": "Notia",
     "description": "A chat agent beside your notes. Choose the provider, chat model, and embedding model.",
     "repo": "Chakyiu/notia-ai-agent",
-    "branch": "main"
+    "branch": "master"
   },
   {
     "id": "daily-notes",

@@ -22,5 +22,13 @@
     "description": "Creates a note from a template, or inserts one at the cursor, in a single command.",
     "repo": "Chakyiu/notia-templater",
     "branch": "master"
+  },
+  {
+    "id": "theme-enhancer",
+    "name": "Theme enhancer",
+    "author": "Notia",
+    "description": "Folder icon packs, icon colors, and a CSS file that overrides the active theme.",
+    "repo": "Chakyiu/notia-theme-enhancer",
+    "branch": "main"
   }
 ]

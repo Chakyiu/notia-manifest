@@ -26,6 +26,7 @@ Notia downloads `https://codeload.github.com/<repo>/zip/refs/heads/<branch>` and
 | Daily notes | [Chakyiu/notia-daily-note](https://github.com/Chakyiu/notia-daily-note) |
 | Markdown editor | [Chakyiu/notia-markdown-editing-tool](https://github.com/Chakyiu/notia-markdown-editing-tool) |
 | Templater | [Chakyiu/notia-templater](https://github.com/Chakyiu/notia-templater) |
+| Theme enhancer | [Chakyiu/notia-theme-enhancer](https://github.com/Chakyiu/notia-theme-enhancer) |
 
 ## Adding a plugin
 

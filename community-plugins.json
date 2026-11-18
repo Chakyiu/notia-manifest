@@ -1,0 +1,26 @@
+[
+  {
+    "id": "daily-notes",
+    "name": "Daily notes",
+    "author": "Notia",
+    "description": "Opens a note for each day, creating it when needed. Its folder and name are in its settings.",
+    "repo": "Chakyiu/notia-daily-note",
+    "branch": "master"
+  },
+  {
+    "id": "markdown-editor",
+    "name": "Markdown editor",
+    "author": "Notia",
+    "description": "Inserts headings, emphasis, lists, links, images, tables, quotes, and callouts at the cursor.",
+    "repo": "Chakyiu/notia-markdown-editing-tool",
+    "branch": "master"
+  },
+  {
+    "id": "templater",
+    "name": "Templater",
+    "author": "Notia",
+    "description": "Creates a note from a template, or inserts one at the cursor, in a single command.",
+    "repo": "Chakyiu/notia-templater",
+    "branch": "master"
+  }
+]

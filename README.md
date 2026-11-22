@@ -31,7 +31,19 @@ Notia downloads `https://codeload.github.com/<repo>/zip/refs/heads/<branch>` and
 
 ## Adding a plugin
 
-A plugin repository contains `manifest.json` and `main.js` (or the file `main` names), the same files a vault's `.notia/plugins` folder holds. Open a pull request that adds one object to `community-plugins.json`. The `id` is the `id` in that repository's `manifest.json`, and `branch` is the branch Notia should install.
+A plugin repository contains `manifest.json` and `main.js` (or the file `main` names), the same files a vault's `.notia/plugins` folder holds. Open a pull request that adds one object to `community-plugins.json` and a row to the table above. The `id` is the `id` in that repository's `manifest.json`, and `branch` is the branch Notia should install — read it from the repository, it is not always `main`.
+
+## Keeping the list in sync
+
+Every change to a plugin repository has to reach this list: a new plugin is added to `community-plugins.json` and the table, and an entry's `name`, `description`, `repo`, or `branch` is corrected when the plugin changes.
+
+`scripts/check-plugins.mjs` enforces that. It reads the list and, for each entry, fetches the plugin's `manifest.json` from its repository and branch; it fails when the branch has no manifest or when the manifest's `id` differs from the entry's. It also lists each owner's repositories and fails for a `notia-*` repository whose `manifest.json` id is not in the list, which is how a newly added plugin shows up. Name and description differences are reported as warnings.
+
+```sh
+node scripts/check-plugins.mjs
+```
+
+Node 18 or newer, no dependencies. The workflow in `.github/workflows/check-plugins.yml` runs the same check on every push and pull request, and once a day, so a plugin change that was never added here turns that run red.
 
 ## License
 

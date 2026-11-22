@@ -38,5 +38,13 @@
     "description": "Folder icon packs, icon colors, and a CSS file that overrides the active theme.",
     "repo": "Chakyiu/notia-theme-enhancer",
     "branch": "main"
+  },
+  {
+    "id": "calendar",
+    "name": "Calendar",
+    "author": "Notia",
+    "description": "A month calendar in the right sidebar. Selecting a day lists notes whose path contains that date.",
+    "repo": "Chakyiu/notia-calendar",
+    "branch": "main"
   }
 ]

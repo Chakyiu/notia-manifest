@@ -3,7 +3,7 @@
     "id": "ai-agent",
     "name": "AI agent",
     "author": "Notia",
-    "description": "A chat agent beside your notes. Choose the provider, chat model, and embedding model.",
+    "description": "A chat agent beside your notes, with continuations in the editor.",
     "repo": "Chakyiu/notia-ai-agent",
     "branch": "master"
   },
@@ -45,6 +45,22 @@
     "author": "Notia",
     "description": "A month calendar in the right sidebar. Selecting a day lists notes whose path contains that date.",
     "repo": "Chakyiu/notia-calendar",
+    "branch": "main"
+  },
+  {
+    "id": "notia-image-editor",
+    "name": "Image Editor",
+    "author": "Notia",
+    "description": "Crop and resize images embedded in notes (png/jpeg/webp). Uses the edit library; pair with the native companion for in-app edits.",
+    "repo": "Chakyiu/notia-image-editor",
+    "branch": "main"
+  },
+  {
+    "id": "table-enhancer",
+    "name": "Table Enhancer",
+    "author": "Notia",
+    "description": "Insert and edit Markdown tables from a toolbar above the note.",
+    "repo": "Chakyiu/notia-table-enhancer",
     "branch": "main"
   }
 ]

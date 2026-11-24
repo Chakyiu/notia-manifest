@@ -28,6 +28,9 @@ Notia downloads `https://codeload.github.com/<repo>/zip/refs/heads/<branch>` and
 | Markdown editor | [Chakyiu/notia-markdown-editing-tool](https://github.com/Chakyiu/notia-markdown-editing-tool) |
 | Templater | [Chakyiu/notia-templater](https://github.com/Chakyiu/notia-templater) |
 | Theme enhancer | [Chakyiu/notia-theme-enhancer](https://github.com/Chakyiu/notia-theme-enhancer) |
+| Calendar | [Chakyiu/notia-calendar](https://github.com/Chakyiu/notia-calendar) |
+| Image Editor | [Chakyiu/notia-image-editor](https://github.com/Chakyiu/notia-image-editor) |
+| Table Enhancer | [Chakyiu/notia-table-enhancer](https://github.com/Chakyiu/notia-table-enhancer) |
 
 ## Adding a plugin
 
